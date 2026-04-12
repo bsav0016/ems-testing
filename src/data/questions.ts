@@ -70,9 +70,9 @@ export const QUESTIONS: Question[] = [
   ),
   q(
     'Which of the following correctly identifies the signs and symptoms of hyperglycemia?',
-    'Shallow/rapid breathing, pale moist skin, diaphoresis, rapid pulse, and altered mental status.',
+    'Warm/dry skin, dehydration, increased urination, and present/increasing hunger.',
     [
-      'Warm dry skin, dehydration, increased urination, and increasing hunger.',
+      'Shallow/rapid breathing, pale moist skin, diaphoresis, and rapid pulse.',
       'Pinpoint pupils, slowed breathing, and bradycardia.',
       'Salivation, lacrimation, urination, and muscle twitching.',
     ],
@@ -80,9 +80,9 @@ export const QUESTIONS: Question[] = [
   ),
   q(
     'Which of the following correctly identifies the signs and symptoms of hypoglycemia?',
-    'Warm/dry skin, dehydration, increased urination, and present/increasing hunger.',
+    'Shallow/rapid breathing, pale moist skin, diaphoresis, rapid pulse, and altered mental status.',
     [
-      'Shallow/rapid breathing, pale moist skin, diaphoresis, and rapid pulse.',
+      'Warm dry skin, dehydration, increased urination, and increasing hunger.',
       'Fruity breath odor, altered mental status, and weakness on one side of the body.',
       'Headache, nausea, and flu-like symptoms without fever.',
     ],
