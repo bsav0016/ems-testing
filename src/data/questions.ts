@@ -5,6 +5,7 @@ export const SOURCES: Source[] = [
   { id: 'test-1a', label: 'Test 1A Practice' },
   { id: 'test-2a', label: 'Test 2A Practice' },
   { id: 'test-4', label: 'Test 4 Practice' },
+  { id: 'study-guide-5', label: 'Test 5 Study Guide' },
 ]
 
 function q(
@@ -1268,6 +1269,284 @@ export const QUESTIONS: Question[] = [
     'test-4',
   ),
   // End Test 4 Practice
+
+  // ── Test 5 Study Guide ───────────────────────────────────────────────────
+  q(
+    'You respond to a park on a hot summer day and find a 55-year-old male who is confused, has hot and dry skin, and a body temperature of 105°F. His family says he stopped sweating about an hour ago. Which condition is this, and what is the key distinguishing feature from heat exhaustion?',
+    'Heat stroke — the patient has lost the ability to regulate body temperature and is no longer sweating.',
+    [
+      'Heat exhaustion — the patient has lost the ability to regulate body temperature and is no longer sweating.',
+      'Heat cramps — dry skin and confusion indicate severe dehydration from muscle cramping.',
+      'Fever of unknown origin — hyperthermia above 104°F is not associated with heat emergencies.',
+    ],
+    '1',
+    'study-guide-5',
+  ),
+  q(
+    'You are called to a residence for a 30-year-old female who collapsed. On scene she is actively seizing. Her husband reports she had a history of high blood pressure during this pregnancy and complained of severe persistent headaches and blurry vision over the past two days. Which condition best explains this presentation?',
+    'Eclampsia — a complication of preeclampsia characterized by seizures in addition to hypertension and other symptoms.',
+    [
+      'Febrile seizure — high fever during pregnancy can trigger generalized tonic-clonic activity.',
+      'Simple fainting — headache and visual disturbances before syncope are common in pregnancy.',
+      'Hypoglycemia — low blood glucose is the most common cause of seizures in pregnant patients.',
+    ],
+    '2',
+    'study-guide-5',
+  ),
+  q(
+    'You are packaging a 6-year-old trauma patient for spinal immobilization. Your partner places the child flat on the backboard but the head immediately falls into flexion, potentially compromising the airway. What is the correct corrective action and why?',
+    'Pad under the shoulders to bring the head into a neutral position, because a child\'s proportionally large head causes flexion when lying flat.',
+    [
+      'Pad under the occiput to elevate the head, because the neck muscles in children are too weak to support extension.',
+      'Place a cervical collar without any padding, as the collar alone maintains airway alignment.',
+      'Tilt the board 15 degrees head-down to use gravity to open the airway.',
+    ],
+    '3',
+    'study-guide-5',
+  ),
+  q(
+    'You respond to a residence for a 3-month-old infant who is unresponsive and not breathing. The parents report they put the baby to sleep and found her this way. There are no signs of trauma and the scene appears safe. Which condition should be at the top of your differential?',
+    'Sudden Infant Death Syndrome (SIDS).',
+    [
+      'Foreign body airway obstruction from aspiration of formula.',
+      'Febrile seizure leading to respiratory arrest.',
+      'Anaphylaxis from an allergic reaction to a new food.',
+    ],
+    '4',
+    'study-guide-5',
+  ),
+  q(
+    'You are called to assist with a delivery. The mother is actively pushing and the head is crowning. Which stage of labor is she currently in?',
+    'Second stage — delivery of the fetus.',
+    [
+      'First stage — dilation of the cervix.',
+      'Third stage — delivery of the placenta.',
+      'Fourth stage — uterine contraction and recovery.',
+    ],
+    '5',
+    'study-guide-5',
+  ),
+  q(
+    'You arrive on scene for an abdominal trauma patient and observe a loop of bowel protruding through an open wound in the abdomen. Which term correctly describes this finding, and what is the appropriate treatment?',
+    'Evisceration — cover with moist sterile gauze and do not attempt to push the organs back in.',
+    [
+      'Evisceration — gently push the organs back into the abdomen and apply an occlusive dressing.',
+      'Hematoma — apply direct pressure with dry sterile gauze and a pressure bandage.',
+      'Prolapse — irrigate the wound and cover with a dry sterile dressing.',
+    ],
+    '6',
+    'study-guide-5',
+  ),
+  q(
+    'You are assessing a patient with a mid-shaft femur fracture. Distal to the fracture you cannot palpate a pulse. Your protocols require you to attempt one realignment. After one careful attempt to restore alignment, you still cannot find a distal pulse. What should you do next?',
+    'Splint the limb in the most comfortable position found and transport immediately.',
+    [
+      'Attempt a second realignment with more force to restore perfusion.',
+      'Apply a tourniquet proximal to the fracture to control expected vascular bleeding.',
+      'Continue attempts at realignment every five minutes during transport until a pulse returns.',
+    ],
+    '7',
+    'study-guide-5',
+  ),
+  q(
+    'During your rapid trauma assessment of a patient struck by a vehicle, you find deformities, contusions, abrasions, punctures, burns, tenderness, lacerations, and swelling. Which mnemonic organizes these findings?',
+    'DCAP-BTLS.',
+    [
+      'OPQRST.',
+      'SLUDGE.',
+      'SAMPLE.',
+    ],
+    '8',
+    'study-guide-5',
+  ),
+  q(
+    'You assist in the delivery of a newborn who is limp, blue, and not breathing. You begin stimulation and reassess at one minute of life. You are assigning an APGAR score. Which five criteria make up the APGAR assessment?',
+    'Appearance, Pulse, Grimace, Activity, and Respiration.',
+    [
+      'Airway, Perfusion, Glucose, Affect, and Respirations.',
+      'Alertness, Pulse, Grimace, Abdominal exam, and Reflexes.',
+      'Appearance, Pressure, Gag reflex, Activity, and Reflexes.',
+    ],
+    '9',
+    'study-guide-5',
+  ),
+  q(
+    'You are called for a hiker who was exposed to extreme cold overnight. On exam his foot has a hard, waxy texture, blisters are beginning to form, and the tissue appears swollen. Which cold-related emergency best describes his condition?',
+    'Frostbite — the tissues are actually frozen, producing hardness, a waxy feel, blistering, and swelling.',
+    [
+      'Frost nip — superficial cooling with a hard waxy texture is the hallmark of this milder injury.',
+      'Trench foot — prolonged wet cold exposure causes blistering without actual tissue freezing.',
+      'Mild hypothermia — peripheral vasoconstriction creates a waxy appearance in the extremities.',
+    ],
+    '10',
+    'study-guide-5',
+  ),
+  q(
+    'You are called for a woman in active labor and on arrival you observe the umbilical cord protruding from the vagina before the baby. Which of the following correctly describes the prehospital treatment for a prolapsed umbilical cord?',
+    'Place the patient supine with hips elevated or in knee-chest position, wrap the cord in a moist sterile towel, administer oxygen, and transport rapidly.',
+    [
+      'Clamp and cut the cord immediately to prevent compression, then transport.',
+      'Have the patient push aggressively to deliver the baby before the cord compresses further.',
+      'Place the patient flat and apply a warm dry dressing over the cord without touching it.',
+    ],
+    '11',
+    'study-guide-5',
+  ),
+  q(
+    'After assisting with a delivery, you assign the newborn an initial APGAR score. At what two time intervals is the APGAR score assessed?',
+    '1 minute and 5 minutes after birth.',
+    [
+      '2 minutes and 10 minutes after birth.',
+      'Immediately at birth and again at 10 minutes.',
+      '30 seconds and 3 minutes after birth.',
+    ],
+    '12',
+    'study-guide-5',
+  ),
+  q(
+    'A 24-year-old female at 16 weeks gestation calls EMS for heavy vaginal bleeding and cramping. She is concerned she may be losing the pregnancy. At which gestational age does spontaneous abortion typically occur?',
+    'Prior to 20 weeks gestation.',
+    [
+      'Between 20 and 24 weeks gestation.',
+      'After 24 weeks gestation.',
+      'Only within the first 8 weeks of pregnancy.',
+    ],
+    '13',
+    'study-guide-5',
+  ),
+  q(
+    'You assist with a field delivery and the infant is born. You need to quickly assess whether the newborn\'s vital signs are within normal limits. Which of the following correctly describes normal newborn vital signs?',
+    'Respirations 30–60 breaths/min, pulse 100–205 beats/min, systolic BP 50–70 mmHg.',
+    [
+      'Respirations 12–20 breaths/min, pulse 60–100 beats/min, systolic BP 90–120 mmHg.',
+      'Respirations 20–30 breaths/min, pulse 80–120 beats/min, systolic BP 70–90 mmHg.',
+      'Respirations 40–60 breaths/min, pulse 60–80 beats/min, systolic BP 80–100 mmHg.',
+    ],
+    '14',
+    'study-guide-5',
+  ),
+  q(
+    'A patient is stabbed in the abdomen and you suspect organ involvement. Which of the following correctly separates hollow organs from solid organs in the abdomen?',
+    'Hollow organs include the stomach, intestines, and bladder; solid organs include the liver, spleen, and kidneys.',
+    [
+      'Hollow organs include the liver, spleen, and kidneys; solid organs include the stomach and intestines.',
+      'The liver, gallbladder, and bladder are all solid organs; the kidneys and adrenal glands are hollow.',
+      'All abdominal organs are classified as solid because they are contained within the peritoneum.',
+    ],
+    '15',
+    'study-guide-5',
+  ),
+  q(
+    'You are performing CPR on a newborn with two rescuers. Which compression-to-ventilation ratio is correct for a neonate?',
+    '3:1 — 90 compressions and 30 ventilations per minute.',
+    [
+      '15:2 — 15 compressions to 2 ventilations for neonates.',
+      '30:2 — same ratio used for adults and children.',
+      '5:1 — 5 compressions followed by 1 ventilation for all pediatric patients.',
+    ],
+    '16',
+    'study-guide-5',
+  ),
+  q(
+    'You are called to a daycare for a 2-year-old who had a witnessed generalized seizure. The staff reports the child has had a temperature of 103.8°F since this morning. Which type of seizure is most consistent with this presentation?',
+    'Febrile seizure — seizures triggered by high fever, most common in young children.',
+    [
+      'Absence seizure — staring spells with blank affect triggered by fever in toddlers.',
+      'Eclamptic seizure — hypertension-related seizures that occur most often in toddlers.',
+      'Psychogenic non-epileptic seizure — behavioral seizures precipitated by environmental stress.',
+    ],
+    '17',
+    'study-guide-5',
+  ),
+  q(
+    'You are called for a patient with a lower leg injury trapped in machinery for 45 minutes. After extrication, he complains of severe pain out of proportion to visible injury, worsening pain with passive movement of the toes, and his leg feels tensely swollen. Which condition should you suspect?',
+    'Compartment syndrome — dangerous pressure buildup within a muscle compartment that may cut off blood flow and damage tissue.',
+    [
+      'Deep vein thrombosis — venous clot formation causing localized swelling and pain after prolonged compression.',
+      'Arterial occlusion from a fracture fragment compressing the vessel without elevated compartment pressure.',
+      'Rhabdomyolysis — systemic muscle breakdown that presents only with dark urine and no local findings.',
+    ],
+    '18',
+    'study-guide-5',
+  ),
+  q(
+    'You respond to a 3-year-old with a barking, seal-like cough, stridor at rest, low-grade fever, and a preceding cold. Which pediatric respiratory emergency best matches this presentation?',
+    'Croup — a viral upper airway illness causing subglottic swelling, stridor, and a characteristic seal-like or barking cough.',
+    [
+      'Epiglottitis — rapid-onset high fever with drooling and a muffled voice without a preceding cold.',
+      'Asthma — lower airway wheeze with no stridor and no preceding viral cold symptoms.',
+      'Foreign body aspiration — sudden-onset stridor without a preceding cold or low-grade fever.',
+    ],
+    '19',
+    'study-guide-5',
+  ),
+  q(
+    'You are called for a 35-year-old hiker who became lost overnight in cold weather. His core temperature is 92°F. His skin is pale and cool, but he is shivering and alert. You consider active rewarming. Under which conditions is active rewarming appropriate in the prehospital setting?',
+    'Active rewarming is appropriate for mild hypothermia (core temp 89.8–95°F) and for frost nip, but not for frostbite.',
+    [
+      'Active rewarming is appropriate for all levels of hypothermia including severe cases below 86°F.',
+      'Active rewarming should never be performed in the prehospital setting and is reserved for the hospital only.',
+      'Active rewarming is only indicated when the patient is unresponsive, regardless of core temperature.',
+    ],
+    '20',
+    'study-guide-5',
+  ),
+  q(
+    'You are assessing a 4-month-old infant and need to check a pulse. Which pulse site is the preferred location in infants?',
+    'Brachial pulse.',
+    [
+      'Radial pulse.',
+      'Carotid pulse.',
+      'Femoral pulse.',
+    ],
+    '21',
+    'study-guide-5',
+  ),
+  q(
+    'You are assessing an 80-year-old nursing home resident with a suspected hip fracture. The staff reports she has not complained of any pain. Which of the following best explains why older adults may not report pain the way younger patients do?',
+    'Pain perception decreases with age because neuroreceptors degrade over time.',
+    [
+      'Elderly patients consciously minimize pain complaints to avoid hospitalization.',
+      'Older adults experience more intense pain than younger patients but express it differently.',
+      'Pain medications given for chronic conditions artificially suppress all pain receptors equally.',
+    ],
+    '22',
+    'study-guide-5',
+  ),
+  q(
+    'You arrive on scene for a patient in hemorrhagic shock after a motor vehicle crash. Your partner asks why you are applying high-flow oxygen to a trauma patient rather than titrating to SpO2. Which of the following best justifies this decision?',
+    'A patient in shock has hypoperfusion and requires high-flow oxygen to maximize the amount of oxygen delivered to tissues as quickly as possible.',
+    [
+      'High-flow oxygen increases blood pressure directly by stimulating vascular smooth muscle contraction.',
+      'Titrating oxygen to SpO2 is only appropriate for medical patients, never trauma patients.',
+      'High-flow oxygen is given to dilute any toxic gases that may have been inhaled during the crash.',
+    ],
+    '23',
+    'study-guide-5',
+  ),
+  q(
+    'You respond to an outdoor event for a 60-year-old male who is confused, hot and dry to the touch, and has a rectal temperature of 106°F. Which treatment sequence is most appropriate for heat stroke?',
+    'Remove the patient from the heat, remove clothing, apply oxygen, begin aggressive cooling (ice bath), transport, and notify the hospital — but do not overcool.',
+    [
+      'Administer oral fluids, apply warm blankets, and transport without active cooling to avoid overcooling.',
+      'Submerge the patient in ice water for 30 minutes on scene before transport to maximally reduce temperature.',
+      'Apply wet cloths to the forehead only and monitor temperature every 10 minutes before transport.',
+    ],
+    '24',
+    'study-guide-5',
+  ),
+  q(
+    'You are splinting a mid-shaft tibia fracture. A bystander asks why you are immobilizing the ankle and knee in addition to the injury site itself. Which of the following best explains your reasoning?',
+    'Splinting the joints above and below the injury stabilizes the injured extremity and prevents movement that could worsen the fracture.',
+    [
+      'Immobilizing adjacent joints prevents compartment syndrome from developing distal to the fracture.',
+      'Extending the splint above and below is required only when distal pulses are absent.',
+      'Splinting adjacent joints is a documentation requirement, not a clinical necessity.',
+    ],
+    '25',
+    'study-guide-5',
+  ),
+  // End Test 5 Study Guide
 ]
 
 function shuffle<T>(arr: T[]): T[] {
