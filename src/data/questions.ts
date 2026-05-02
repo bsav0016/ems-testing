@@ -1416,7 +1416,7 @@ export const QUESTIONS: Question[] = [
   ),
   q(
     'You assist with a field delivery and the infant is born. You need to quickly assess whether the newborn\'s vital signs are within normal limits. Which of the following correctly describes normal newborn vital signs?',
-    'Respirations 30–60 breaths/min, pulse 100–205 beats/min, systolic BP 50–70 mmHg.',
+    'Respirations 30–60 breaths/min, pulse 100–205 beats/min, systolic BP 67–84 mmHg.',
     [
       'Respirations 12–20 breaths/min, pulse 60–100 beats/min, systolic BP 90–120 mmHg.',
       'Respirations 20–30 breaths/min, pulse 80–120 beats/min, systolic BP 70–90 mmHg.',
